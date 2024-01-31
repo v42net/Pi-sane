@@ -9,6 +9,9 @@ and document my progress here ...
 
 ## Notes
 When everything is working okay, change the SD-card to read-only mode to prevent corruption:
+- https://yagrebu.net/unix/rpi-overlay.md
+- https://github.com/ghollingworth/overlayfs
+
 - https://core-electronics.com.au/guides/read-only-raspberry-pi/
 - https://learn.adafruit.com/read-only-raspberry-pi/overview
 - https://github.com/anschwa/raspberrypi-readonly-filesystem
