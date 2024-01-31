@@ -7,6 +7,15 @@ A Raspberry PI turning a USB scanner into a network scanner with:
 I'll be using the [Scanner page in the Debian Wiki](https://wiki.debian.org/Scanner) as my guide
 and document my progress here ...
 
+## OS Installation 
+
+For initial tests I'm using a Hyper-V VM running a minimal install of Debian 12 (32-bits):
+- 1 CPU, 1 GB memory (not dynamic) and a 32 GB disk
+- One root partition of 32 GB, no swap partition (to allow for disk read-only mode)
+
+
+
+
 ## Notes
 When everything is working okay, change the SD-card to read-only mode to prevent corruption:
 - https://yagrebu.net/unix/rpi-overlay.md
